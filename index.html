@@ -15,8 +15,8 @@
         <div>
             <label>Bill Amount:</label><input v-model="billAmount" type="number" id="bill-amount"></br>
             <label>Percentage Tip:</label><input v-model="percentageTip" type="number" id="percentage-tip"></br>
-            <label>Tip Amount:</label><input v-model="tipAmount" type="number" id="tip-amount" disabled></br>
-            <label>Total:</label><input v-model="total" type="number" id="total" disabled></br>
+            <label>Tip Amount:</label><input :value="tipAmount" type="number" id="tip-amount" disabled></br>
+            <label>Total:</label><input :value="total" type="number" id="total" disabled></br>
             <button @click="calculate">Calculate</button>
         </div>
     </div>
