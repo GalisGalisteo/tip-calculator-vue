@@ -3,7 +3,7 @@ import {
   ref,
 } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
 
-createApp({≤
+createApp({
   setup() {
     const billAmount = ref("");
     const percentageTip = ref("");
